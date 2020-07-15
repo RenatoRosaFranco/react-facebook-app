@@ -13,3 +13,11 @@ export default function CommentItem({ comment }) {
     </>
   )
 };
+
+CommentItem.defaultProps = {
+  
+}
+
+CommentItem.propTypes = {
+
+}
