@@ -1,10 +1,12 @@
 import React from 'react';
-import Header from './comments/Header';
+import Header from './components/Layout/Header';
+import PostList from './components/Posts/PostList';
 
 function App() {
   return (
     <div className="App">
-      <Header />      
+      <Header />
+      <PostList />
     </div>
   );
 }
